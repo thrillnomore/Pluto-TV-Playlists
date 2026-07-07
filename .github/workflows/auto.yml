@@ -31,3 +31,7 @@ jobs:
           git add .
           git commit -m "Auto update playlist" || echo "No changes"
           git push --force
+
+       - runs:
+  using: 'node24'
+  main: 'main.js'
